@@ -1,0 +1,9 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN pip install pandas sqlalchemy psycopg2-binary pyarrow fastparquet click tqdm
+
+COPY ingest_green_parquet.py ingest_zones.py ./
+
+ENTRYPOINT ["python"]
