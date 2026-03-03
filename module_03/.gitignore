@@ -1,0 +1,9 @@
+# uv
+.venv/
+
+# Secrets
+service-account.json
+*.json
+
+# Data files
+*.parquet
