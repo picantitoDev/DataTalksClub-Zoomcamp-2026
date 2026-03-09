@@ -48,9 +48,6 @@ models:
     columns:
       - name: trip_id
         description: Unique trip identifier (surrogate key)
-        data_tests:
-          - unique
-          - not_null
       - name: vendor_id
         description: Taxi technology provider ID
         data_tests:

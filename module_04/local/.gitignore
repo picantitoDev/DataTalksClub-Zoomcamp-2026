@@ -1,5 +1,9 @@
 .venv/
 venv/
 
+# DuckDB temp files
+local/.tmp/
+*.tmp
+
 *.duckdb
 uv.lock
